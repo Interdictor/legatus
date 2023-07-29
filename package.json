@@ -4,6 +4,7 @@
   "description": "A Visual Studio Code color theme that cares about human eyes",
   "version": "0.0.1",
   "repository": { "url": "https://github.com/Interdictor/legatus" },
+  "publisher": "lerejoc",
   "engines": {
     "vscode": "^1.80.0"
   },
