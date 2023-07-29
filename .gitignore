@@ -1,3 +1,4 @@
 node_modules
 *.vsix
 credentials.json
+samples

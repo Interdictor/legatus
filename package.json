@@ -2,7 +2,7 @@
   "name": "legatus",
   "displayName": "Legatus",
   "description": "A Visual Studio Code color theme that cares about human eyes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": { "url": "https://github.com/Interdictor/legatus" },
   "publisher": "lerejoc",
   "engines": {
