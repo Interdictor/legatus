@@ -1,4 +1,5 @@
 node_modules
 *.vsix
 credentials.json
+publish.sh
 samples
