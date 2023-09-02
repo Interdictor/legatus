@@ -4,11 +4,14 @@ All notable changes to the "legatus" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [0.1.1] - 2023-08-31
+## [0.1.1] - 2023-09-02
 
 - minor changes:
   - tweak js `this` color
   - tweak ruby block argument color
+  - Add vivid colors for commas
+  - revamp tokenColors
+
 ## [0.1.0] - 2023-07-29
 
 - major changes:
