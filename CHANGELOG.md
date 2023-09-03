@@ -4,9 +4,15 @@ All notable changes to the "legatus" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [0.1.2] - 2023-09-02
+## [0.1.3] - 2023-09-03
+- minor changes:
+  - tweak editorWhitespace.foreground
+  - contemplate support.type.object.module as support_0
+
+## [0.1.2] - 2023-09-03
 - minor changes:
   - uniformize all caution tokenColors
+
 ## [0.1.1] - 2023-09-02
 
 - minor changes:

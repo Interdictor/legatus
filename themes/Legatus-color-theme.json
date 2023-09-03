@@ -7,8 +7,8 @@
     "tab.activeBackground": "#3d3b37",
     "sideBar.background": "#211f1d",
     "sideBar.border": "#3c3836",
-    "sideBarSectionHeader.background": "#1d202100",
-    "list.hoverBackground": "#71685a",
+    "sideBarSectionHeader.background": "#363635",
+    "list.hoverBackground": "#3f3c36",
     "list.activeSelectionBackground": "#48413a",
     "list.inactiveSelectionBackground": "#4a4643",
     "editorBracketMatch.background": "#423e2f",
@@ -17,7 +17,7 @@
     "editorBracketHighlight.foreground3": "#857b5e",
     "editorBracketHighlight.foreground4": "#857b5e",
     "editorBracketHighlight.foreground5": "#857b5e",
-    "editorWhitespace.foreground": "#333"
+    "editorWhitespace.foreground": "#2b2b2b"
   },
   "tokenColors": [
     {
@@ -127,7 +127,8 @@
         "support.class",
         "new.expr.js entity.name.function.js",
         "meta.type.annotation entity.name.type",
-        "support.variable.property"
+        "support.variable.property",
+        "support.type.object.module"
       ]
     },
     {
