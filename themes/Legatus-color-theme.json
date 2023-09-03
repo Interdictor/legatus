@@ -72,7 +72,7 @@
     },
     {
       "name": "caution_2",
-      "settings": { "foreground": "#e07229" },
+      "settings": { "foreground": "#d47f46" },
       "scope": [
         "keyword.operator.new",
         "meta.scope.condition.makefile",
@@ -85,7 +85,7 @@
     },
     {
       "name": "caution_3",
-      "settings": { "foreground": "#d59f66" },
+      "settings": { "foreground": "#d47f46" },
       "scope": [
         "variable.css",
         "entity.name.command.shell",
@@ -93,16 +93,8 @@
       ]
     },
     {
-      "name": "neutral_1",
-      "settings": { "foreground": "#d7d7d7" },
-      "scope": [
-        "constant.language.boolean",
-        "variable.other.object"
-      ]
-    },
-    {
-      "name": "kernel",
-      "settings": { "foreground": "#cc8043" },
+      "name": "caution_4",
+      "settings": { "foreground": "#d47f46" },
       "scope": [
         "meta.scope.target.makefile support.function.target",
         "meta.scope.recipe.makefile keyword.control",
@@ -119,13 +111,23 @@
       ]
     },
     {
+      "name": "neutral_1",
+      "settings": { "foreground": "#d7d7d7" },
+      "scope": [
+        "constant.language.boolean",
+        "variable.other.object"
+      ]
+    },
+    {
       "name": "support_0",
-      "settings": { "foreground": "#b09546" },
+      "settings": { "foreground": "#c59e5f" },
       "scope": [
         "variable.other.makefile",
         "variable.other.constant",
         "support.class",
         "new.expr.js entity.name.function.js",
+        "meta.type.annotation entity.name.type",
+        "support.variable.property"
       ]
     },
     {
@@ -197,14 +199,6 @@
       "name": "color",
       "settings": { "foreground": "#838383" },
       "scope": [ "constant.other.color" ]
-    },
-    {
-      "name": "support",
-      "settings": { "foreground": "#bd9532" },
-      "scope": [
-        "meta.type.annotation entity.name.type",
-        "support.variable.property"
-      ]
     },
     {
       "name": "support_medium",
