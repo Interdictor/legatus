@@ -44,7 +44,7 @@
     },
     {
       "name": "value_1",
-      "settings": { "foreground": "#c3c014" },
+      "settings": { "foreground": "#70a2c9" },
       "scope": [ "constant.numeric" ]
     },
     {
@@ -61,7 +61,8 @@
         "meta.link",
         "punctuation.separator.object",
         "punctuation.separator.comma",
-        "constant.language.symbol",
+        "punctuation.definition.separator.groovy",
+        "constant.language.symbol", // esto a qué aplica?
         "constant.language",
         "support.constant.media",
         "variable.other.block",
@@ -74,13 +75,10 @@
       "name": "caution_2",
       "settings": { "foreground": "#d47f46" },
       "scope": [
-        "keyword.operator.new",
         "meta.scope.condition.makefile",
         "punctuation.definition.list.begin.markdown",
         "punctuation.decorator",
-        "keyword.operator",
         "meta.decorator meta.function-call entity.name.function",
-        "variable.language.this",
       ]
     },
     {
@@ -89,32 +87,58 @@
       "scope": [
         "variable.css",
         "entity.name.command.shell",
-        "variable.language.this",
       ]
     },
     {
-      "name": "caution_4",
-      "settings": { "foreground": "#d47f46" },
+      "name": "keyword_0",
+      "settings": { "foreground": "#857b5e" },
       "scope": [
-        "meta.scope.target.makefile support.function.target",
-        "meta.scope.recipe.makefile keyword.control",
+        "keyword",
+      ]
+    },
+    {
+      "name": "keyword_1",
+      "settings": { "foreground": "#c88558" },
+      "scope": [
+        "entity.name.type.terraform",
+        "keyword.control.conditional",
         "keyword.control.-@.makefile",
         "keyword.control.@.makefile",
-        "support.function.kernel",
-        "storage.modifier.async",
         "keyword.control.flow.js",
-        "keyword.operator",
-        "keyword.control.pseudo-method",
         "keyword.control.flow.ts",
+        "keyword.control.loop",
+        "keyword.control.pseudo-method",
+        "keyword.operator.new",
+        "keyword.operator",
+        "meta.scope.recipe.makefile keyword.control",
+        "meta.scope.target.makefile support.function.target",
+        "storage.modifier.async",
+        "support.function.kernel",
         "support.function.misc",
-        "entity.name.type.terraform"
+      ]
+    },
+    {
+      "name": "keyword_2",
+      "settings": { "foreground": "#df9f38" },
+      "scope": [
+        "keyword.operator.comparison",
+        "keyword.operator.logical",
+        "keyword.operator.relational",
+      ]
+    },
+    {
+      "name": "constant_0",
+      "settings": { "foreground": "#7da192" },
+      "scope": [
+        "constant.other.symbol",
       ]
     },
     {
       "name": "neutral_1",
-      "settings": { "foreground": "#d7d7d7" },
+      "settings": { "foreground": "#bfccd0" },
       "scope": [
         "constant.language.boolean",
+        "constant.language.ruby",
         "variable.other.object"
       ]
     },
@@ -137,13 +161,13 @@
       "scope": [
         "variable.other.readwrite.instance",
         "variable.language.special",
+        "variable.language.this",
       ]
     },
     {
       "name": "subtle_0",
       "settings": { "foreground": "#857b5e" },
       "scope": [
-        "keyword",
         "storage",
         "punctuation.section.embedded.begin",
         "punctuation.terminator.statement",
@@ -212,6 +236,28 @@
       "name": "properties_css",
       "settings": { "foreground": "#a4835d" },
       "scope": [ "support.type.property-name.css" ]
+    },
+    {
+      "name": "groovy_0",
+      "settings": { "foreground": "#b4a989" },
+      "scope": [
+        "meta.method-call.groovy",
+        "meta.method.body.java"
+      ]
+    },
+    {
+      "name": "groovy_1",
+      "settings": { "foreground": "#7da192" },
+      "scope": [
+        "constant.other.key.groovy",
+      ]
+    },
+    {
+      "name": "groovy_2",
+      "settings": { "foreground": "#adabab" },
+      "scope": [
+        "storage.type.groovy",
+      ]
     },
     {
       "name": "foreground_reset",
